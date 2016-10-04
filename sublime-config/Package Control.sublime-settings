@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"AutoFileName",
+		"BracketHighlighter",
+		"CSScomb",
+		"Emmet",
+		"External Command",
+		"ImageMagick",
+		"JavaScriptNext - ES6 Syntax",
+		"jQuery",
+		"Laravel 5 Artisan",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Package Control",
+		"php-snippets",
+		"Placeholders",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"Terminal",
+		"Vue Syntax Highlight",
+		"Vuejs Complete Package"
+	]
+}
