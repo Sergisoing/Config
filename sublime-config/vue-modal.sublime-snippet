@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+<${1:modal} :show="${2:is_show}" ${3:@change="${4:notice}"}>
+    <span slot="title">${5:title}</span>
+    <div slot="body" class="panel">
+        ${6:body}
+    </div>
+    ${7:<div slot="footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">${8:取消}</button>
+        <button type="button" class="btn btn-success" ${9::disabled="${10:disabled}"} @click.stop.prevent="${11:save_func}"><i class="fa fa-save"></i> ${12:保存}</button>
+    </div>}
+</${1:modal}>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>vue-modal</tabTrigger>
+    <!-- Optional: Set a description-->
+    <description>Modal Picker</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<${1:datetime} v-model="${2:value}" ${3::options="\{format: '${4:yyyy-mm-dd hh:ii}'\}"} ${5::timestamp="${6:false}"}></${1:datetime}>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>vue-datetime</tabTrigger>
+    <!-- Optional: Set a description-->
+    <description>DateTime Picker</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue</scope>
+</snippet>

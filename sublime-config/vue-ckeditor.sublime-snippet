@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<${1:ckeditor} v-model="${2:model}" ${3::config="${4:config}"}></${1:ckeditor}>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>vue-ckeditor</tabTrigger>
+    <!-- Optional: Set a description-->
+    <description>ckeditor Picker</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue</scope>
+</snippet>

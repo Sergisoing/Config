@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<${1:select} v-model="${2:model}" :data="{3:dataList}" ${4::readonly="true"} ${6::multiple="true"} ${7::data-live-search="true"} ${8::data-actions-box="true"}></${1:select}>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>vue-select</tabTrigger>
+    <!-- Optional: Set a description-->
+    <description>Select Picker</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue</scope>
+</snippet>

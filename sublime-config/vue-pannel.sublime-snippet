@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<${1:panel}>
+    <span slot="title">${2:标题}</span>
+    <div slot="body">
+        ${3: body html}
+    </div>
+</${1:panel}>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>vue-pannel</tabTrigger>
+    <!-- Optional: Set a description-->
+    <description>Panel</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue</scope>
+</snippet>
