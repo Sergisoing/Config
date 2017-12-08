@@ -31,7 +31,7 @@
 		"node_modules"
 	],
 	"font_face": "Monaco",
-	"font_size": 16.0,
+	"font_size": 15.0,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
@@ -56,7 +56,7 @@
 	"tab_completion": false,
 	"tab_size": 4,
 	"theme": "Material-Theme-Palenight.sublime-theme",
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"use_simple_full_screen": false,
