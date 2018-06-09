@@ -5,6 +5,8 @@ echo export PATH='/usr/local/bin:$PATH' >> ~/.zshrc
 
 brew install fasd
 eval "$(fasd --init auto)"
+# 设置zsh-autosuggestions的提示颜色
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 
 # 修改~/.zshrc
 plugins=(git fasd)
